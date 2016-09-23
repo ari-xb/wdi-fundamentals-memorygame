@@ -18,9 +18,10 @@ var gameBoard = document.getElementById("game-board");
 
 // create 4 divs each with class 'card' and appended to the game-board.
 var createCards = function() {
-for (var i = 1; i < 4 ; i++ ) {
+for (var i = 0; i < 4 ; i++ ) {
 	var card = document.createElement('div');
 	card.className = 'card';
 	gameBoard.appendChild(card);
 }
 }
+createCards();

@@ -29,7 +29,7 @@ div {
 }
 .board {
 	height: 50%;
-	width: 50%;
+	width: 80%;
 	display: inline-block;
 	float: left;
 	margin: 8%;
@@ -38,8 +38,12 @@ div {
 .card {
 	height: 200px;
 	width: 150px;
-	border: 1px black solid;
+	margin: 10px;
+	border: 5px black solid;
 	background-color: rgb(255,200,0);
+	background: url(http://i.imgur.com/MKsnpQt.jpg);
+	background-size: 200px 250px;
+	background-position: center top;
 	border-radius: 10px;
 	display: inline-block;
 	align: center;
@@ -72,6 +76,7 @@ a.smlinks:visited {
 }
 a.smlinks:hover {
 	color:red;
+	border: 3px red solid;
 	background-color: transparent;
 }
 nav {

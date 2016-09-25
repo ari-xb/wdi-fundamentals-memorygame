@@ -1,5 +1,5 @@
 
-/*var cardOne ='queen';
+var cardOne ='queen';
 var cardTwo = 'queen';
 var cardThree ='king';
 var cardFour ='king';
@@ -13,7 +13,7 @@ else if ('king' === 'king') {
 else ('queen' === 'king'); { 
 	alert("Sorry, try again.");
 }
-*/
+
 var gameBoard = document.getElementById("game-board");
 
 // create 4 divs each with class 'card' and appended to the game-board.
